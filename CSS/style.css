@@ -1,23 +1,22 @@
 *{
     margin: 0;
-    padding: 0;
 }
 
+
 /* header */
-.head_color {
+header {
     background-color: rgb(13, 171, 219);
+    background-image: url("../img/pattern.png");
     height: 150px;
 }
 
-.pattern_layer {
-    height: 100%;
-    width: 100%;
+.logo {
+    height: 50px;
+    margin-top: 80px;
+    margin-left: 10px;
 }
 
-.pattern {
-    height: 100%;
-    
-}
+
 
 
 /* main */
@@ -59,25 +58,64 @@ p {
     background-color: yellow;
 }
 
+
+
+
+
+
+/* table */
+table {
+    border-spacing: 0px;
+    margin: 20px;
+}
+
+.d25 {
+    width: 25%;
+}
+
+.d50 {
+    width: 50%;
+}
+
 .thead {
+    text-align: left;
+    margin: 0;
+    padding: 0;
     background-color: rgb(52, 200, 236);
 }
 
 .tr1 {
+    margin: 0;
+    padding: 0;
     background-color: rgb(178, 238, 255);
 }
 
-table {
-    margin: 20px;
-}
 
+
+
+/* footer */
 .footer_text {
     color: grey;
     margin: 10px;
 }
 
-.image_footer {
-    position: relative;
+.footer_img_1 {
+    height: 200px;
+    width: 300px;
+    background-image: url(../img/monitor.jpg);
+    margin-bottom: 20px;
+}
+
+.footer_img_2 {
+    height: 200px;
+    width: 300px;
+    background-image: url(../img/graph.jpg);
+    margin-bottom: 20px;
 }
 
 
+.image_text {
+    padding-top: 15px;
+    font-size: 22px;
+    color: aliceblue;
+}
