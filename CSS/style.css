@@ -29,3 +29,55 @@ h1 {
 p {
     margin-left: 10px;
 }
+
+.author {
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.image {
+    margin-left: 10px;
+}
+.booleaner {
+    color: rgb(39, 200, 240);
+}
+
+.date {
+    font-size: 14px;
+}
+.caption {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.main_text {
+    margin: 20px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.thead {
+    background-color: rgb(52, 200, 236);
+}
+
+.tr1 {
+    background-color: rgb(178, 238, 255);
+}
+
+table {
+    margin: 20px;
+}
+
+.footer_text {
+    color: grey;
+    margin: 10px;
+}
+
+.image_footer {
+    position: relative;
+}
+
+
